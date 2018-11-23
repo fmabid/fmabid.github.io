@@ -1,0 +1,94 @@
+/* Typography */
+body {
+	margin: 0;
+}
+
+html {
+	font-size: 12px;
+	font-family: 'Merriweather', serif;
+}
+
+h1 {
+	font-size: 3.75em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+h1, h2 {
+	font-weight: 600;
+}
+
+h1 .heavier {
+	font-weight: 700;
+}
+
+h3, html {
+	font-weight: 300;
+}
+
+ /* Layout */
+
+header {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+	padding: 0 30px;
+}
+
+header > h1 {
+	margin-bottom: 0;
+}
+
+ /* Color */
+header {
+  background: #364850de; /* #374850 #FEDC32 #364850de #212121*/
+	color: rgb(255, 255, 255);  /* #1E1E1E */
+}
+
+.icons-social a {
+	color: rgb(255, 255, 255)
+}
+
+.icons-social i {
+	font-size: 3em;
+	padding: 10px;
+}
+
+.devto {
+  margin-bottom: -0.20rem;
+	margin-left: 0.675rem;;
+	width: 2.65rem;
+	height: 2.65rem;
+} 
