@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/fmabid/fmabid.github.ioa/precache-manifest.2967ac4bf7012a7c96e20acfa60edd48.js"
+  "/fmabid/test-git/precache-manifest.19e33c961da4a93314b82d23a8b14f88.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/fmabid/fmabid.github.ioa/index.html", {
+workbox.routing.registerNavigationRoute("/fmabid/test-git/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
