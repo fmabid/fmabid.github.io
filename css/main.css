@@ -92,3 +92,7 @@ header {
 	width: 2.65rem;
 	height: 2.65rem;
 } 
+
+.shadow{
+	text-shadow: 2px 3px 3px rgba(3,13,20,0.34);
+}
