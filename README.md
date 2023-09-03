@@ -1,2 +1,0 @@
-# fmabid.github.io
-portfolio
