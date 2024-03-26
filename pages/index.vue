@@ -15,14 +15,14 @@
           >.
         </p>
         <p>
-          I am a Developer and open source enthusiast. I like TypeScript, Go and
-          enjoy creating frontend stuff that sometimes eases some extra jobs. My
-          few projects can be found
+          I am a Softwear developer from Bangladesh 🇧🇩 and open source
+          enthusiast. I like TypeScript, Go and enjoy creating frontend stuff
+          that sometimes eases some extra jobs. My few projects can be found
           <NuxtLink to="/projects" class="text-blue-700">here</NuxtLink>.
         </p>
 
         <p>
-          Othside of my profession, I travel a lot. Mostly like to go on a
+          Outside of my profession, I travel a lot. Mostly like to go on a
           motorbike ride. Sometimes I capture moments and share them on my
           <NuxtLink
             to="/https://www.instagram.com/fm_abid/"
