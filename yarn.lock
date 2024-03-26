@@ -1164,7 +1164,7 @@
     which "^3.0.1"
     ws "^8.13.0"
 
-"@nuxt/kit@3.11.1", "@nuxt/kit@^3.11.1", "@nuxt/kit@^3.8.2":
+"@nuxt/kit@3.11.1", "@nuxt/kit@^3.10.3", "@nuxt/kit@^3.11.1", "@nuxt/kit@^3.8.2":
   version "3.11.1"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.11.1.tgz#342335f1cbf7422a3e65be67f3ff975e6075decf"
   integrity sha512-8VVlhaY4N+wipgHmSXP+gLM+esms9TEBz13I/J++PbOUJuf2cJlUUTyqMoRVL0xudVKK/8fJgSndRkyidy1m2w==
@@ -5327,6 +5327,16 @@ nuxi@^3.11.0:
   integrity sha512-AW71TpxRHNg8MplQVju9tEFvXPvX42e0wPYknutSStDuAjV99vWTWYed4jxr/grk2FtKAuv2KvdJxcn2W59qyg==
   optionalDependencies:
     fsevents "~2.3.3"
+
+nuxt-gtag@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/nuxt-gtag/-/nuxt-gtag-2.0.5.tgz#0a7afb8a709a151c8d5dadb8dc0f3235caa5056b"
+  integrity sha512-RX/52eXufjly/Y7PJKRLGLBQhI73SnmzcLoI4pjEJIVsEVpIXJLkAwHtKY3HvU8KiV0ai4UE3Cn1xB6ncoiFaA==
+  dependencies:
+    "@nuxt/kit" "^3.10.3"
+    defu "^6.1.4"
+    pathe "^1.1.2"
+    ufo "^1.4.0"
 
 nuxt@^3.11.1:
   version "3.11.1"

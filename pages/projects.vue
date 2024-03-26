@@ -1,4 +1,8 @@
 <template>
+  <Head>
+    <Title>Projects - Md. Faysal Mahmud Abid</Title>
+  </Head>
+
   <div class="container mx-auto">
     <h1 class="text-center">Projects</h1>
 
