@@ -11,9 +11,9 @@
       </div>
 
       <article>
-        <div class="relative">
-          <p class="text-xl">Hello, I'm</p>
-          <h1 class="bold text-[36px] font-medium">Md. Faysal Mahmud Abid</h1>
+        <div class="relative mb-6">
+          <p class="text-2xl">Hello, I'm</p>
+          <h1 class="bold text-[30px] font-medium">Md. Faysal Mahmud Abid</h1>
         </div>
       </article>
     </div>
