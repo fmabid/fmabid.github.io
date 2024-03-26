@@ -47,6 +47,18 @@
           {{ link.title }}
         </NuxtLink>
       </div>
+
+      <p class="mt-10">
+        Or you can drop me an email at
+        <a href="mailto:fmaabid@gmail.com" class="text-blue-700"
+          >fmaabid@gmail.com</a
+        >
+
+        or ping me on
+        <NuxtLink to="https://www.linkedin.com/in/fmabid" class="text-blue-700"
+          >LinkedIn</NuxtLink
+        >.
+      </p>
     </div>
   </div>
 </template>
