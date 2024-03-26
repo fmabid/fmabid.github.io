@@ -1,8 +1,8 @@
 <template>
-  <div>
-    <h1>Projects</h1>
+  <div class="container mx-auto">
+    <h1 class="text-center">Projects</h1>
 
-    <div>
+    <div class="mx-auto max-w-80">
       <h2>Pesonal projects</h2>
 
       <ul>
