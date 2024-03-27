@@ -3,19 +3,23 @@
     <Title>Projects - Md. Faysal Mahmud Abid</Title>
   </Head>
 
-  <div class="container mx-auto py-10">
-    <h1 class="text-center text-4xl font-bold">Projects</h1>
+  <div class="container mx-auto px-4 py-4 lg:px-0 lg:py-10">
+    <h1 class="text-center text-2xl font-bold lg:text-4xl">Projects</h1>
 
-    <div class="mx-auto mt-20 lg:px-80">
+    <div class="mx-auto mt-10 lg:mt-20 lg:px-80">
       <div class="relative block">
-        <h4 class="mb-6 text-center text-xl font-bold">Crafts</h4>
+        <h4 class="mb-3 pl-9 text-xl font-bold lg:mb-6 lg:text-center">
+          Crafts
+        </h4>
 
-        <div class="mx-auto grid grid-flow-col text-slate-500">
+        <div
+          class="mx-auto grid grid-cols-1 text-slate-500 lg:grid-flow-col lg:grid-cols-none"
+        >
           <NuxtLink
             v-for="project in personalProjects"
             :key="project.name"
             :to="project.preview"
-            class="group flex w-[350px] items-center gap-4 p-4 no-underline opacity-50 transition duration-300 ease-in-out hover:opacity-100"
+            class="project-item group mx-auto"
           >
             <component
               :is="project.icon"
@@ -30,17 +34,21 @@
       </div>
     </div>
 
-    <div class="mx-auto mt-20 lg:px-80">
+    <div class="mx-auto mt-8 lg:mt-20 lg:px-80">
       <div class="relative block">
-        <h4 class="mb-6 text-center text-xl font-bold">Client Projects</h4>
+        <h4 class="mb-3 pl-9 text-xl font-bold lg:mb-6 lg:text-center">
+          Client's Projects
+        </h4>
 
-        <div class="mx-auto grid grid-flow-col text-slate-500">
+        <div
+          class="mx-auto grid grid-cols-1 text-slate-500 lg:grid-flow-col lg:grid-cols-none"
+        >
           <NuxtLink
             v-for="project in clientProjects"
             :key="project.name"
             :to="project.preview"
             target="_blank"
-            class="group flex w-[350px] items-center gap-4 p-4 no-underline opacity-50 transition duration-300 ease-in-out hover:opacity-100"
+            class="project-item group mx-auto"
           >
             <component
               :is="project.icon"
@@ -91,16 +99,16 @@ const personalProjects = [
 
 const clientProjects = [
   {
-    name: "Skrollo",
-    description: "Meme sharing platform.",
-    icon: NuxtDotjsIcon,
-    preview: "https://skrollo.com/",
-  },
-  {
     name: "Shopemaa Dashboard",
     description: "Admin dashboard for Shopemaa.",
     icon: VueDotjsIcon,
     preview: "https://shopemaa.com/",
+  },
+  {
+    name: "Skrollo",
+    description: "Meme sharing platform.",
+    icon: NuxtDotjsIcon,
+    preview: "https://skrollo.com/",
   },
 ];
 </script>

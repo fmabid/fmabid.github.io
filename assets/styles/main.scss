@@ -18,3 +18,7 @@
     }
   }
 }
+
+.project-item {
+  @apply flex w-[350px] items-center gap-4 rounded-md p-4 no-underline opacity-50 transition duration-500 ease-in-out hover:bg-slate-200 hover:opacity-100;
+}
