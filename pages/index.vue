@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto">
-    <div class="main-body mx-auto">
+    <div class="main-body mx-auto px-4 pb-10 lg:px-0">
       <Intro />
 
       <div class="space-y-6">
@@ -35,7 +35,7 @@
       <div class="relative mt-10">
         <p class="mb-4">Find me on:</p>
 
-        <div class="flex flex-wrap gap-6 text-sm">
+        <div class="flex flex-wrap gap-4 text-sm lg:gap-6">
           <NuxtLink
             v-for="link in smLinks"
             :key="link.name"

@@ -1,7 +1,7 @@
 <template>
   <div>
     <header class="relative">
-      <nav class="container mx-auto">
+      <nav class="container mx-auto px-4 lg:px-4">
         <ul class="flex items-center justify-end gap-x-5 py-4">
           <li class="transition duration-150 ease-in-out hover:text-gray-600">
             <NuxtLink to="/">Home</NuxtLink>

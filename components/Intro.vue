@@ -1,7 +1,11 @@
 <template>
   <div class="relative py-5">
-    <div class="flex items-end space-x-6">
-      <div class="block h-52 w-52 overflow-hidden rounded-full">
+    <div
+      class="flex flex-col items-center lg:flex-row lg:items-end lg:space-x-6"
+    >
+      <div
+        class="flex h-44 w-44 items-center overflow-hidden rounded-full lg:block lg:h-52 lg:w-52"
+      >
         <img
           src="/images/me.jpeg"
           alt=""
@@ -10,10 +14,12 @@
         />
       </div>
 
-      <article>
-        <div class="relative mb-6">
+      <article class="flex w-full justify-start lg:block lg:w-auto">
+        <div class="relative lg:mb-6">
           <p class="text-2xl">Hey, I'm</p>
-          <h1 class="bold text-[30px] font-medium">Md. Faysal Mahmud Abid</h1>
+          <h1 class="bold text-[26px] font-medium lg:text-[30px]">
+            Md. Faysal Mahmud Abid
+          </h1>
         </div>
       </article>
     </div>
